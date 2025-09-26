@@ -1,0 +1,22 @@
+# Compilados / binários
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.pch
+*.log
+*.depend
+*.layout
+
+# Pastas comuns de build
+bin/
+obj/
+**/Debug/
+**/Release/
+
+# SO
+.DS_Store
+Thumbs.db
