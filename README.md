@@ -1,9 +1,10 @@
-cat > README.md << 'EOF'
 # Exercícios em C
 
-Coleção de exercícios simples em C (condicionais, loops, etc.).
+Coleção de pequenos programas em C (condicionais, laços, etc.).  
+Cada arquivo `.c` é um exercício independente.
 
-## Como compilar (GCC)
+## Como rodar (sem Makefile)
 ```bash
-gcc -std=c11 -Wall -Wextra -O2 Ex019AnoBissexto.c -o build/Ex019AnoBissexto
-./build/Ex019AnoBissexto
+# exemplo para um arquivo específico
+gcc -std=c11 -Wall -Wextra -O2 src/ex019_ano_bissexto.c -o build/ex019_ano_bissexto
+./build/ex019_ano_bissexto
